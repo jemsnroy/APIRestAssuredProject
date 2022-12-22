@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 22 14:33:39 EST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12942 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldContentLength()'><b>vldContentLength</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldContentType()'><b>vldContentType</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldContentType()'><b>vldContentType</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldContentType()'><b>vldContentType</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldContentType()'><b>vldContentType</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldContentType()'><b>vldContentType</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldCookies()'><b>vldCookies</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldCookies()'><b>vldCookies</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldCookies()'><b>vldCookies</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldCookies()'><b>vldCookies</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldCookies()'><b>vldCookies</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldResponseBody()'><b>vldResponseBody</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldResponseBody()'><b>vldResponseBody</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldResponseBody()'><b>vldResponseBody</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldResponseBody()'><b>vldResponseBody</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldResponseBody()'><b>vldResponseBody</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldResponseTime()'><b>vldResponseTime</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldResponseTime()'><b>vldResponseTime</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldResponseTime()'><b>vldResponseTime</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldResponseTime()'><b>vldResponseTime</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldResponseTime()'><b>vldResponseTime</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldServerType()'><b>vldServerType</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldServerType()'><b>vldServerType</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldServerType()'><b>vldServerType</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldServerType()'><b>vldServerType</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldServerType()'><b>vldServerType</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldStatusCode()'><b>vldStatusCode</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldStatusCode()'><b>vldStatusCode</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldStatusCode()'><b>vldStatusCode</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldStatusCode()'><b>vldStatusCode</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldStatusCode()'><b>vldStatusCode</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC001_GET_All_Employees.vldStatusLine()'><b>vldStatusLine</b><br>Test class: com.qa.API.tests.TC001_GET_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC001_GET_All_Employees@4a83a74a</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC002_GET_Employee.vldStatusLine()'><b>vldStatusLine</b><br>Test class: com.qa.API.tests.TC002_GET_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC002_GET_Employee@1349883</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC003_POST_Employee.vldStatusLine()'><b>vldStatusLine</b><br>Test class: com.qa.API.tests.TC003_POST_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC003_POST_Employee@4b29d1d2</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC004_PUT_EmployeeRecord.vldStatusLine()'><b>vldStatusLine</b><br>Test class: com.qa.API.tests.TC004_PUT_EmployeeRecord</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC004_PUT_EmployeeRecord@7f485fda</td></tr>
+<tr>
+<td title='com.qa.API.tests.TC005_DELETE_Employee.vldStatusLine()'><b>vldStatusLine</b><br>Test class: com.qa.API.tests.TC005_DELETE_Employee</td>
+<td></td>
+<td>0</td>
+<td>com.qa.API.tests.TC005_DELETE_Employee@28261e8e</td></tr>
+</table><p>
+</body>
+</html>

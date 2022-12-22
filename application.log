@@ -1,0 +1,173 @@
+2022-12-22 15:30:41,509  INFO [main] TestBase:24 - -------------Started TC005_DELETE_Employee-------------
+2022-12-22 15:30:42,419 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://dummy.restapiexample.com:443
+2022-12-22 15:30:42,544 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:443
+2022-12-22 15:30:42,722 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-12-22 15:30:42,724 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2022-12-22 15:30:42,724 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-12-22 15:30:42,725 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-12-22 15:30:42,725 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2022-12-22 15:30:42,725 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2022-12-22 15:30:42,726 DEBUG [main] wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2022-12-22 15:30:42,727 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2022-12-22 15:30:42,728 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2022-12-22 15:30:42,728 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-12-22 15:30:42,728 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)[\r][\n]"
+2022-12-22 15:30:42,728 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-12-22 15:30:42,729 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2022-12-22 15:30:42,729 DEBUG [main] headers:278 - >> GET /api/v1/employees HTTP/1.1
+2022-12-22 15:30:42,729 DEBUG [main] headers:281 - >> Accept: */*
+2022-12-22 15:30:42,729 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2022-12-22 15:30:42,729 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2022-12-22 15:30:42,729 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+2022-12-22 15:30:42,730 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2022-12-22 15:30:42,768 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-12-22 15:30:42,770 DEBUG [main] wire:73 -  << "Cache-Control: public, max-age=2592000[\r][\n]"
+2022-12-22 15:30:42,770 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2022-12-22 15:30:42,771 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2022-12-22 15:30:42,771 DEBUG [main] wire:73 -  << "Date: Thu, 22 Dec 2022 20:30:44 UTC[\r][\n]"
+2022-12-22 15:30:42,771 DEBUG [main] wire:73 -  << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-12-22 15:30:42,771 DEBUG [main] wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2022-12-22 15:30:42,772 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2022-12-22 15:30:42,772 DEBUG [main] wire:73 -  << "Server: nginx/1.21.6[\r][\n]"
+2022-12-22 15:30:42,772 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+2022-12-22 15:30:42,773 DEBUG [main] wire:73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+2022-12-22 15:30:42,773 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-12;e95582ef-5b56-46a1-66b6-1d9544d557c5[\r][\n]"
+2022-12-22 15:30:42,774 DEBUG [main] wire:73 -  << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-12-22 15:30:42,774 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2022-12-22 15:30:42,774 DEBUG [main] wire:73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+2022-12-22 15:30:42,774 DEBUG [main] wire:73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+2022-12-22 15:30:42,774 DEBUG [main] wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2022-12-22 15:30:42,775 DEBUG [main] wire:73 -  << "X-Ratelimit-Remaining: 58[\r][\n]"
+2022-12-22 15:30:42,775 DEBUG [main] wire:73 -  << "X-Server-Cache: false[\r][\n]"
+2022-12-22 15:30:42,775 DEBUG [main] wire:73 -  << "X-Sol: orig[\r][\n]"
+2022-12-22 15:30:42,776 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2022-12-22 15:30:42,776 DEBUG [main] wire:73 -  << "[\r][\n]"
+2022-12-22 15:30:42,777 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-12-22 15:30:42,777 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2022-12-22 15:30:42,777 DEBUG [main] headers:265 - << Cache-Control: public, max-age=2592000
+2022-12-22 15:30:42,778 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2022-12-22 15:30:42,778 DEBUG [main] headers:265 - << Content-Type: application/json
+2022-12-22 15:30:42,778 DEBUG [main] headers:265 - << Date: Thu, 22 Dec 2022 20:30:44 UTC
+2022-12-22 15:30:42,778 DEBUG [main] headers:265 - << Display: staticcontent_sol, orig_site_sol
+2022-12-22 15:30:42,778 DEBUG [main] headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2022-12-22 15:30:42,779 DEBUG [main] headers:265 - << Response: 200
+2022-12-22 15:30:42,779 DEBUG [main] headers:265 - << Server: nginx/1.21.6
+2022-12-22 15:30:42,779 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,Origin
+2022-12-22 15:30:42,779 DEBUG [main] headers:265 - << X-Endurance-Cache-Level: 2
+2022-12-22 15:30:42,780 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-12;e95582ef-5b56-46a1-66b6-1d9544d557c5
+2022-12-22 15:30:42,780 DEBUG [main] headers:265 - << X-Middleton-Display: staticcontent_sol, orig_site_sol
+2022-12-22 15:30:42,780 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2022-12-22 15:30:42,780 DEBUG [main] headers:265 - << X-Nginx-Cache: WordPress
+2022-12-22 15:30:42,780 DEBUG [main] headers:265 - << X-Origin-Cache-Control: no-cache, private
+2022-12-22 15:30:42,781 DEBUG [main] headers:265 - << X-Ratelimit-Limit: 60
+2022-12-22 15:30:42,781 DEBUG [main] headers:265 - << X-Ratelimit-Remaining: 58
+2022-12-22 15:30:42,781 DEBUG [main] headers:265 - << X-Server-Cache: false
+2022-12-22 15:30:42,781 DEBUG [main] headers:265 - << X-Sol: orig
+2022-12-22 15:30:42,781 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2022-12-22 15:30:42,786 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-12-22 15:30:42,804 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2022-12-22 15:30:42,806 DEBUG [main] wire:73 -  << "26f[\r][\n]"
+2022-12-22 15:30:42,806 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x94][0x96]OO[0x1b]=[0x10][0xc6][0xbf][0x8a]_[0x9f][0xa3]W[0xbb][0xf6][0xfe]Ir#A[0x4][0x95]R[0xb5][0x4][0x15]UU[0x85][0xa6][0xeb][0x81][0xb5][0xea][0xd8]h[0xec][0xa5]l[0x11][0xdf][0xbd][0xa2]\[0x90]<X[0xed]1[0xf1][0xe1][0xa7][0xc7][0xf3][0xcc][0xcf][0xfb](c[0x82]4E[0xb9][0x96]q[0x1a][0x6][0x8c]Q.[0xa4][0x81][0x4]r[0xfd][0xf5]QZ#[0xd7][0xf5]B[0xe2][0xe1][0xce][0x85][0x19][0xf1][0xda][0xc3][0x1][0xe5]Z^[0xda][$[0xf1][0xc1]>[0x4]/_[0x9d]Fp@[0xb3]\kU-[0xab][0xea][0xd5][0x1][0xdc][0xa2]\w[0xf5]B[0xde]Q[0xb8][0xb1][0xe][0xaf][0xed][0xe1][0xcf]_R>-^ *[0x87][0xec][0x80][0x8]S[0x12]W[0xd6]'[0xa4][0xc8][0x81][0xea][0xbe][0xea][0xdb][0x1c][0xa4][0xb] [0x9d][0x83][0x8e][0xe2][0x98][0x82][0x17][0xdb][0xf0][0xc0]1[0x96]][0xc5]d[0xe9][\n]"
+2022-12-22 15:30:42,806 DEBUG [main] wire:73 -  << "[0x88]&Gl[0xd1][0x90][0x1d][0xc4][0x19]:7s[0x90]F[0xeb][0xaa][0xcb](J[0x15](-[0x13][0xc4][0x92][0x15]{Hab/[0xab]S}[0x9e]D[0x97].[0xab][0xcb][0x19][0x1b][0xb2][0xe8][0x1c][0x8a]+[0xeb][0x9c][0x85]C|[0xa3][0x1][0xbd][0xe2]n[0xad][0xd4][0x80]>g[0x9d]"Q0b;[0x82]7[0xe][0x89][\r][0xa5][0xfb]6[0x7][0xb5][0xab][0x2]h[0x99][0x83].[0xc6][0xe0]A[0x1c][0xc3][0xbd]5o[0x5]R[0xfd][0x8a][0xe1][0xb4][0x5][0xce][0x8a][0xa9]Ap[0xe][0xd1][0x8b][0xd3][0x89]b[0xe2]0[0xaa]j[0x99]8[0xba][0x14][0xa7][0xae]r[0xce]>[0xf8][0x19][0xc4][0x9][0x5][0x9e]RW[0xba][0xcb])[0xaa][0xd4][0x84][0x9a][0xb1][0xc0];[0xf4] v`=[0xb2][0xcb][0xb9][0xaa][0xda][0xbc][0xd2][0xba]*A[0x18][0xb]|[0x9a][0xac][0xf7][0xe2][0xc4][0xcd][0x9e][0x9f]K[0xc3][0x15][0xad][0xb8]85[0xa3][0x80][0xed][0x8]dP[0x9c][0x3][0xc5][0x11][0x9c]cW[0xb4][0xaf][0x98]K[0xd3]%[0x11][0xd4][0x8c][0x9]N[0xc1][0xe1],[0xce][0xd0]{4[0xac][\n]"
+2022-12-22 15:30:42,807 DEBUG [main] wire:73 -  << "t[0xad][0x99][\n]"
+2022-12-22 15:30:42,807 DEBUG [main] wire:87 -  << "4[0xc5][0xe1]0.[0xb8][0x84]4[0x83][0x7]qb[0xd3][0xaf];Hd[0x87][0x1f],m[0xd9]2[0x6][0xad][0x8b][0x85]c[0xac]pn[0x87][0x11][0xd0][0x89][0xbd]u[0xf7][0xc0]Vn[0xb5]dR[0x15]5Z3F[0xf8][0x8][0x93][0x13][0x9b][0x99][0xc][0xc7][0xe8]U[0xcb]I[0xa7])1[0x18][0x19][0xec]\ "
+2022-12-22 15:30:42,807 DEBUG [main] wire:87 -  << "[0xb][0xe2][0xbd]M[0xc9]![0xbb][0xa4][0xff][0xee][0x9c][0x9a][0x91][0xc1][0x86][0xc0]<waG[0xf8][0x96][0xdb][0xb8]n7[0xc5]g[0x94][0x91][0xc1]1Xqa[0x3][0xbb][0xa3][0xaa][0xe6][0xa2][0xe8][0x92][0xd6][0x14]o[0x2]L[0x9][0xc5][0x16][0x9c][0xf9][0x89][0xfc][0xfe][0xe8][0x86][0x9b]N[0xd1][0x7][0x8a][0xf1][0xc1][0x97][0x89][0xac][0xd8] [0x11][0xbb]<][0xcf]A[0x9a]"[0x84][0xd3][0x1]`[0x4][0x12][0x9f][0xc1][0xf]l[0x3][0xea][0xaa]k[0xf2][0xad]Q[0xc5][0xc9]0.8[0xe]d[0xe3][0xf3]Kj[0xf8][0x2],[0xdb][0xbf][0xd6][0xf4][0xb7][0x85]<`[0x8c]/?[0xf7]/[0x1f]r7[0x93]s[0xf3][0xe2][0xc8]9A8[0x4]2Q[0x8c][0x10][0xc5][0xf7][0xe7][0x17][0xe8][0x6][0xd3]0[0xa2][0xf9]_>[0xfd][0x6][0x0][0x0][0xff][0xff]"
+2022-12-22 15:30:42,807 DEBUG [main] wire:73 -  << "[\r][\n]"
+2022-12-22 15:30:42,807 DEBUG [main] wire:73 -  << "d[\r][\n]"
+2022-12-22 15:30:42,809 DEBUG [main] wire:73 -  << "[0x1][0x0][0x0][0xff][0xff]d[0x10]Q[0xa9][0x1][\n]"
+2022-12-22 15:30:42,809 DEBUG [main] wire:87 -  << "[0x0][0x0]"
+2022-12-22 15:30:42,809 DEBUG [main] wire:73 -  << "[\r][\n]"
+2022-12-22 15:30:42,809 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2022-12-22 15:30:42,809 DEBUG [main] wire:73 -  << "[\r][\n]"
+2022-12-22 15:30:42,810 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-12-22 15:30:42,847 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a2fa51f
+2022-12-22 15:30:42,848 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2022-12-22 15:30:43,276 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://dummy.restapiexample.com:443
+2022-12-22 15:30:43,277 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:443
+2022-12-22 15:30:43,341 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-12-22 15:30:43,342 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2022-12-22 15:30:43,342 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-12-22 15:30:43,342 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-12-22 15:30:43,342 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2022-12-22 15:30:43,343 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /api/v1/delete/null HTTP/1.1
+2022-12-22 15:30:43,343 DEBUG [main] wire:73 -  >> "DELETE /api/v1/delete/null HTTP/1.1[\r][\n]"
+2022-12-22 15:30:43,343 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2022-12-22 15:30:43,344 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2022-12-22 15:30:43,344 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-12-22 15:30:43,344 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)[\r][\n]"
+2022-12-22 15:30:43,345 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-12-22 15:30:43,345 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2022-12-22 15:30:43,345 DEBUG [main] headers:278 - >> DELETE /api/v1/delete/null HTTP/1.1
+2022-12-22 15:30:43,345 DEBUG [main] headers:281 - >> Accept: */*
+2022-12-22 15:30:43,346 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2022-12-22 15:30:43,346 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2022-12-22 15:30:43,346 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+2022-12-22 15:30:43,347 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2022-12-22 15:30:43,686 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-12-22 15:30:43,687 DEBUG [main] wire:73 -  << "Cache-Control: no-cache, private, max-age=21600[\r][\n]"
+2022-12-22 15:30:43,687 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2022-12-22 15:30:43,687 DEBUG [main] wire:73 -  << "Date: Thu, 22 Dec 2022 20:30:44 GMT[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "Expires: Fri, 23 Dec 2022 02:30:44 GMT[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "Server: Apache[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,Origin[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+2022-12-22 15:30:43,688 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2022-12-22 15:30:43,690 DEBUG [main] wire:73 -  << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+2022-12-22 15:30:43,690 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2022-12-22 15:30:43,690 DEBUG [main] wire:73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+2022-12-22 15:30:43,690 DEBUG [main] wire:73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+2022-12-22 15:30:43,691 DEBUG [main] wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2022-12-22 15:30:43,691 DEBUG [main] wire:73 -  << "X-Ratelimit-Remaining: 58[\r][\n]"
+2022-12-22 15:30:43,691 DEBUG [main] wire:73 -  << "X-Sol: orig[\r][\n]"
+2022-12-22 15:30:43,691 DEBUG [main] wire:73 -  << "Content-Length: 84[\r][\n]"
+2022-12-22 15:30:43,691 DEBUG [main] wire:73 -  << "[\r][\n]"
+2022-12-22 15:30:43,691 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-12-22 15:30:43,691 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2022-12-22 15:30:43,692 DEBUG [main] headers:265 - << Cache-Control: no-cache, private, max-age=21600
+2022-12-22 15:30:43,692 DEBUG [main] headers:265 - << Content-Type: application/json
+2022-12-22 15:30:43,692 DEBUG [main] headers:265 - << Date: Thu, 22 Dec 2022 20:30:44 GMT
+2022-12-22 15:30:43,692 DEBUG [main] headers:265 - << Display: staticcontent_sol, orig_site_sol
+2022-12-22 15:30:43,692 DEBUG [main] headers:265 - << Expires: Fri, 23 Dec 2022 02:30:44 GMT
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << Response: 200
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << Server: Apache
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << Vary: Accept-Encoding,Origin
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << X-Endurance-Cache-Level: 2
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << X-Middleton-Display: staticcontent_sol, orig_site_sol
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2022-12-22 15:30:43,693 DEBUG [main] headers:265 - << X-Nginx-Cache: WordPress
+2022-12-22 15:30:43,694 DEBUG [main] headers:265 - << X-Origin-Cache-Control: no-cache, private
+2022-12-22 15:30:43,694 DEBUG [main] headers:265 - << X-Ratelimit-Limit: 60
+2022-12-22 15:30:43,694 DEBUG [main] headers:265 - << X-Ratelimit-Remaining: 58
+2022-12-22 15:30:43,694 DEBUG [main] headers:265 - << X-Sol: orig
+2022-12-22 15:30:43,694 DEBUG [main] headers:265 - << Content-Length: 84
+2022-12-22 15:30:43,694 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-12-22 15:30:43,695 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2022-12-22 15:30:43,695 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-12-22 15:30:45,712  INFO [main] TestBase:96 - -------------Started vldContentType-------------
+2022-12-22 15:30:45,712  INFO [main] TestBase:99 - ContentType is: application/json
+2022-12-22 15:30:45,712  INFO [main] TestBase:101 - -------------Ended vldContentType-------------
+2022-12-22 15:30:45,715  INFO [main] TestBase:119 - -------------Started vldCookies-------------
+2022-12-22 15:30:45,716  INFO [main] TestBase:42 - -------------Started vldResponseBody-------------
+2022-12-22 15:30:45,716 DEBUG [main] wire:87 -  << "{"status":"success","data":"null","message":"Successfully! Record has been deleted"}"
+2022-12-22 15:30:45,717 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4f654cee
+2022-12-22 15:30:45,717 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2022-12-22 15:30:45,717  INFO [main] TestBase:45 - ResponseBody is: {"status":"success","data":"null","message":"Successfully! Record has been deleted"}
+2022-12-22 15:30:45,718  INFO [main] TestBase:48 - -------------Ended vldResponseBody-------------
+2022-12-22 15:30:45,719  INFO [main] TestBase:80 - -------------Started vldResponseTime-------------
+2022-12-22 15:30:45,719  INFO [main] TestBase:85 - ResponseTime is: 426
+2022-12-22 15:30:45,720  INFO [main] TestBase:89 - -------------Ended vldResponseTime-------------
+2022-12-22 15:30:45,721  INFO [main] TestBase:108 - -------------Started vldServerType-------------
+2022-12-22 15:30:45,721  INFO [main] TestBase:111 - ServerType is: Apache
+2022-12-22 15:30:45,721  INFO [main] TestBase:113 - -------------Ended vldServerType-------------
+2022-12-22 15:30:45,722  INFO [main] TestBase:55 - -------------Started vldStatusCode-------------
+2022-12-22 15:30:45,722  INFO [main] TestBase:58 - StatusCode is: 200
+2022-12-22 15:30:45,722  INFO [main] TestBase:61 - -------------Ended vldStatusCode-------------
+2022-12-22 15:30:45,724  INFO [main] TestBase:68 - -------------Started vldStatusLine-------------
+2022-12-22 15:30:45,724  INFO [main] TestBase:71 - statusLine is: HTTP/1.1 200 OK
+2022-12-22 15:30:45,725  INFO [main] TestBase:73 - -------------Ended vldStatusLine-------------
+2022-12-22 15:30:45,726  INFO [main] TestBase:126 - -------------Ended TC005_DELETE_Employee-------------

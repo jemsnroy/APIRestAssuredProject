@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng.xml]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.API.extentReport.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.API.tests.TC003_POST_Employee">
+        <methods>
+          <include name="vldStatusCode"/>
+          <include name="getAllEmployee"/>
+          <include name="tearDown"/>
+          <include name="vldResponseBody"/>
+        </methods>
+      </class> <!-- com.qa.API.tests.TC003_POST_Employee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testng.xml] -->

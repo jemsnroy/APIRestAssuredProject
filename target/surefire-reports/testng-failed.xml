@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng.xml]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.API.extentReport.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.API.tests.TC005_DELETE_Employee">
+        <methods>
+          <include name="vldStatusCode"/>
+          <include name="vldResponseBody"/>
+          <include name="deleteEmployee"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.API.tests.TC005_DELETE_Employee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testng.xml] -->

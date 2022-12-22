@@ -1,0 +1,8 @@
+com\qa\API\tests\TC003_POST_Employee.class
+com\qa\API\tests\TC001_GET_All_Employees.class
+com\qa\API\tests\TC002_GET_Employee.class
+com\qa\API\utils\TestUtils.class
+com\qa\API\base\TestBase.class
+com\qa\API\extentReport\ExtentReportNG.class
+com\qa\API\tests\TC004_PUT_EmployeeRecord.class
+com\qa\API\tests\TC005_DELETE_Employee.class

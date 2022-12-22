@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-22T20:30:41Z" name="Default suite" finished-at="2022-12-22T20:30:45Z" duration-ms="4305">
+    <groups>
+    </groups>
+    <test started-at="2022-12-22T20:30:41Z" name="Default test" finished-at="2022-12-22T20:30:45Z" duration-ms="4305">
+      <class name="com.qa.API.tests.TC005_DELETE_Employee">
+        <test-method is-config="true" signature="deleteEmployee()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:41Z" name="deleteEmployee" finished-at="2022-12-22T20:30:45Z" duration-ms="4273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method signature="vldContentType()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldContentType" finished-at="2022-12-22T20:30:45Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldContentType -->
+        <test-method signature="vldCookies()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldCookies" finished-at="2022-12-22T20:30:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldCookies -->
+        <test-method signature="vldResponseBody()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldResponseBody" finished-at="2022-12-22T20:30:45Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldResponseBody -->
+        <test-method signature="vldResponseTime()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldResponseTime" finished-at="2022-12-22T20:30:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldResponseTime -->
+        <test-method signature="vldServerType()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldServerType" finished-at="2022-12-22T20:30:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldServerType -->
+        <test-method signature="vldStatusCode()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldStatusCode" finished-at="2022-12-22T20:30:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldStatusCode -->
+        <test-method signature="vldStatusLine()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="vldStatusLine" finished-at="2022-12-22T20:30:45Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vldStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.API.tests.TC005_DELETE_Employee@23986957]" started-at="2022-12-22T20:30:45Z" name="tearDown" finished-at="2022-12-22T20:30:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.API.tests.TC005_DELETE_Employee -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
